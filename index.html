@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorrentinos Caseros Buenos Aires | Sorrentinos Caseros Beto</title>
+    <meta name="description" content="Sorrentinos caseros en Buenos Aires. Masa fresca, rellenos abundantes y sabor artesanal. Pedí ahora por WhatsApp: 11 2879 5554">
+    <meta name="keywords" content="sorrentinos caseros Buenos Aires, sorrentinos artesanales, sorrentinos delivery Buenos Aires">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Sorrentinos Caseros Beto - Buenos Aires">
+    <meta property="og:description" content="Sorrentinos caseros hechos con amor. Pedí ahora por WhatsApp">
+    <meta property="og:type" content="website">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fas fa-utensils"></i> Sorrentinos Caseros Beto</h1>
+            </div>
+            <div class="header-contact">
+                <a href="https://wa.me/1128795554" class="whatsapp-header" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Pedir Ahora
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Sorrentinos Caseros<br><span class="highlight">Hechos con amor y calidad artesanal</span></h1>
+                <p class="hero-subtitle">Masa fresca todos los días, rellenos abundantes y sabor único. ¡Los mejores sorrentinos caseros de Buenos Aires!</p>
+                
+                <!-- Order Form -->
+                <div class="order-card">
+                    <h2><i class="fas fa-shopping-cart"></i> Armá tu pedido</h2>
+                    
+                    <div class="order-section">
+                        <label>Cantidad (múltiplos de 12)</label>
+                        <div class="quantity-selector">
+                            <button class="qty-btn" id="qty-minus"><i class="fas fa-minus"></i></button>
+                            <span class="qty-display" id="qty-display">12</span>
+                            <button class="qty-btn" id="qty-plus"><i class="fas fa-plus"></i></button>
+                        </div>
+                        <small>unid. • Precio: $<span id="price-display">2400</span></small>
+                    </div>
+
+                    <div class="order-section">
+                        <label>Seleccioná tus gustos</label>
+                        <div class="flavors-grid">
+                            <label class="flavor-checkbox">
+                                <input type="checkbox" value="Verduras y Ricota">
+                                <span class="checkmark"></span>
+                                Verduras y Ricota
+                            </label>
+                            <label class="flavor-checkbox">
+                                <input type="checkbox" value="Calabaza y Queso">
+                                <span class="checkmark"></span>
+                                Calabaza y Queso
+                            </label>
+                            <label class="flavor-checkbox">
+                                <input type="checkbox" value="Jamón y Queso">
+                                <span class="checkmark"></span>
+                                Jamón y Queso
+                            </label>
+                        </div>
+                    </div>
+
+                    <button class="whatsapp-btn" id="whatsapp-btn">
+                        <i class="fab fa-whatsapp"></i>
+                        Pedir por WhatsApp
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guarantees -->
+    <section class="guarantees">
+        <div class="container">
+            <div class="guarantee-highlight">
+                <h2>🍝 <strong>Garantía de sabor casero</strong></h2>
+                <p>Masa fresca, rellenos abundantes y sabor único. Hechos a mano todos los días.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>Lo que dicen nuestros clientes</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <blockquote>"Los mejores sorrentinos caseros de Buenos Aires"</blockquote>
+                    <cite>— Restaurant El Gaucho</cite>
+                </div>
+                <div class="testimonial">
+                    <blockquote>"Relleno abundante y masa perfecta. ¡Volvemos siempre!"</blockquote>
+                    <cite>— Panadería La Nueva</cite>
+                </div>
+                <div class="testimonial">
+                    <blockquote>"Calidad artesanal inigualable. Recomendado 100%"</blockquote>
+                    <cite>— Fiesta & Eventos SRL</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3><i class="fas fa-utensils"></i> Sorrentinos Caseros Beto</h3>
+                    <p>Probá lo casero, probá lo rico</p>
+                </div>
+                <div class="footer-contact">
+                    <p><i class="fas fa-phone"></i> 11 2879 5554</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Buenos Aires</p>
+                    <p><strong>Sorrentinos caseros para eventos y delivery</strong></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sorrentinos Caseros Beto. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
